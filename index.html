@@ -94,6 +94,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="heading">
         <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
         <h3>Let's learn to code, learn to be creative!</h3>
+        <form action="submit_form.php" method="post">
+          <label for="name">名前:</label>
+          <input type="text" id="name" name="name" required=""><br><br>
+          <label for="name">会社名:</label>
+          <input type="text" id="company" name="company" required=""><br><br>
+          <label for="name">役職:</label>
+          <input type="text" id="post" name="post" required=""><br><br>
+          <label for="message">メッセージ:</label>
+          <textarea id="message" name="message" rows="4" cols="50" required=""></textarea><br><br>
+          <input type="submit" value="送信">
+        </form>
       </div>
       <span class="btn message">さっそく開発する</span>
     </div>
